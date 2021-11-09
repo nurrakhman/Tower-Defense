@@ -13,9 +13,31 @@ public class Tower : MonoBehaviour
     [SerializeField] private float _bulletSpeed = 1f;
     [SerializeField] private float _bulletSplashRadius = 0f;
 
+
     public Sprite GetTowerHeadIcon()
     {
         return _towerHead.sprite;
+    }
+
+    public Vector2? PlacePosition { get; private set; }
+    public void SetPlacePosition(Vector2? newPosition)
+
+    {
+
+        PlacePosition = newPosition;
+
+    }
+
+    public void LockPlacement()
+    {
+        transform.position = (Vector2)PlacePosition;
+    }
+
+    public void ToggleOrderInLayer(bool toFront)
+    {
+        int orderInLayer = toFront ? 2 : 0;
+        _towerPlace.sortingOrder = orderInLayer;
+        _towerHead.sortingOrder = orderInLayer;
     }
 
 
