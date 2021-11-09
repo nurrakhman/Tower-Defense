@@ -252,6 +252,16 @@ PrefabInstance:
       propertyPath: _moveSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7228394305894429001, guid: 6faeab2d034bc4e42981c1696d6e763f,
+        type: 3}
+      propertyPath: _healthBar
+      value: 
+      objectReference: {fileID: 5593779804151766033}
+    - target: {fileID: 7228394305894429001, guid: 6faeab2d034bc4e42981c1696d6e763f,
+        type: 3}
+      propertyPath: _healthFill
+      value: 
+      objectReference: {fileID: 325815281451978133}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6faeab2d034bc4e42981c1696d6e763f, type: 3}
 --- !u!1 &8537038033629568572 stripped
