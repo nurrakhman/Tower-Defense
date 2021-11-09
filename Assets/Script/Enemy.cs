@@ -64,4 +64,13 @@ public class Enemy : MonoBehaviour
     {
         CurrentPathIndex = currentIndex;
     }
+
+    public void ReduceEnemyHealth(int damage)
+    {
+        _currentHealth -= damage;
+        if(_currentHealth <= 0)
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }

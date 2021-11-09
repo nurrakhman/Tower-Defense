@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 4228689342666723651, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
         type: 3}
       propertyPath: m_Name
-      value: Tower
+      value: Tower 1
       objectReference: {fileID: 0}
     - target: {fileID: 6805517662520613055, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
         type: 3}
@@ -67,5 +67,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _bulletPrefab
+      value: 
+      objectReference: {fileID: 8444438769031987709, guid: 24caa93a4b437ca47b92b37a112376f9,
+        type: 3}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _towerPlace
+      value: 
+      objectReference: {fileID: 1346579833635069357}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _towerHead
+      value: 
+      objectReference: {fileID: 386097553496666501}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf, type: 3}
+--- !u!212 &1346579833635069357 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 237284981596877581, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1295631893086613152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &386097553496666501 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1486385765499330341, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1295631893086613152}
+  m_PrefabAsset: {fileID: 0}
