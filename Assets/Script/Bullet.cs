@@ -19,7 +19,11 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(_targetEnemy != null)
+        if (LevelManager.instance.IsOver)
+        {
+            return;
+        }
+        if (_targetEnemy != null)
         {
             if (!_targetEnemy.gameObject.activeSelf)
             {

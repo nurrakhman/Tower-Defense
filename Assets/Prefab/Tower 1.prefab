@@ -83,6 +83,26 @@ PrefabInstance:
       propertyPath: _towerHead
       value: 
       objectReference: {fileID: 386097553496666501}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _shootPower
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _shootDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _shootDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518413680840927708, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf,
+        type: 3}
+      propertyPath: _bulletSpeed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1a6ba2d3d1e8e145902b7fa14cf32bf, type: 3}
 --- !u!212 &1346579833635069357 stripped
